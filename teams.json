@@ -1,0 +1,272 @@
+{
+    "133": {
+        "id": 133,
+        "name": "Oakland Athletics",
+        "teamCode": "oak",
+        "fileCode": "oak",
+        "teamName": "Athletics",
+        "locationName": "Oakland",
+        "shortName": "Oakland"
+    },
+    "134": {
+        "id": 134,
+        "name": "Pittsburgh Pirates",
+        "teamCode": "pit",
+        "fileCode": "pit",
+        "teamName": "Pirates",
+        "locationName": "Pittsburgh",
+        "shortName": "Pittsburgh"
+    },
+    "135": {
+        "id": 135,
+        "name": "San Diego Padres",
+        "teamCode": "sdn",
+        "fileCode": "sd",
+        "teamName": "Padres",
+        "locationName": "San Diego",
+        "shortName": "San Diego"
+    },
+    "136": {
+        "id": 136,
+        "name": "Seattle Mariners",
+        "teamCode": "sea",
+        "fileCode": "sea",
+        "teamName": "Mariners",
+        "locationName": "Seattle",
+        "shortName": "Seattle"
+    },
+    "137": {
+        "id": 137,
+        "name": "San Francisco Giants",
+        "teamCode": "sfn",
+        "fileCode": "sf",
+        "teamName": "Giants",
+        "locationName": "San Francisco",
+        "shortName": "San Francisco"
+    },
+    "138": {
+        "id": 138,
+        "name": "St. Louis Cardinals",
+        "teamCode": "sln",
+        "fileCode": "stl",
+        "teamName": "Cardinals",
+        "locationName": "St. Louis",
+        "shortName": "St. Louis"
+    },
+    "139": {
+        "id": 139,
+        "name": "Tampa Bay Rays",
+        "teamCode": "tba",
+        "fileCode": "tb",
+        "teamName": "Rays",
+        "locationName": "St. Petersburg",
+        "shortName": "Tampa Bay"
+    },
+    "140": {
+        "id": 140,
+        "name": "Texas Rangers",
+        "teamCode": "tex",
+        "fileCode": "tex",
+        "teamName": "Rangers",
+        "locationName": "Arlington",
+        "shortName": "Texas"
+    },
+    "141": {
+        "id": 141,
+        "name": "Toronto Blue Jays",
+        "teamCode": "tor",
+        "fileCode": "tor",
+        "teamName": "Blue Jays",
+        "locationName": "Toronto",
+        "shortName": "Toronto"
+    },
+    "142": {
+        "id": 142,
+        "name": "Minnesota Twins",
+        "teamCode": "min",
+        "fileCode": "min",
+        "teamName": "Twins",
+        "locationName": "Minneapolis",
+        "shortName": "Minnesota"
+    },
+    "143": {
+        "id": 143,
+        "name": "Philadelphia Phillies",
+        "teamCode": "phi",
+        "fileCode": "phi",
+        "teamName": "Phillies",
+        "locationName": "Philadelphia",
+        "shortName": "Philadelphia"
+    },
+    "144": {
+        "id": 144,
+        "name": "Atlanta Braves",
+        "teamCode": "atl",
+        "fileCode": "atl",
+        "teamName": "Braves",
+        "locationName": "Atlanta",
+        "shortName": "Atlanta"
+    },
+    "145": {
+        "id": 145,
+        "name": "Chicago White Sox",
+        "teamCode": "cha",
+        "fileCode": "cws",
+        "teamName": "White Sox",
+        "locationName": "Chicago",
+        "shortName": "Chi White Sox"
+    },
+    "146": {
+        "id": 146,
+        "name": "Miami Marlins",
+        "teamCode": "mia",
+        "fileCode": "mia",
+        "teamName": "Marlins",
+        "locationName": "Miami",
+        "shortName": "Miami"
+    },
+    "147": {
+        "id": 147,
+        "name": "New York Yankees",
+        "teamCode": "nya",
+        "fileCode": "nyy",
+        "teamName": "Yankees",
+        "locationName": "Bronx",
+        "shortName": "NY Yankees"
+    },
+    "158": {
+        "id": 158,
+        "name": "Milwaukee Brewers",
+        "teamCode": "mil",
+        "fileCode": "mil",
+        "teamName": "Brewers",
+        "locationName": "Milwaukee",
+        "shortName": "Milwaukee"
+    },
+    "108": {
+        "id": 108,
+        "name": "Los Angeles Angels",
+        "teamCode": "ana",
+        "fileCode": "ana",
+        "teamName": "Angels",
+        "locationName": "Anaheim",
+        "shortName": "LA Angels"
+    },
+    "109": {
+        "id": 109,
+        "name": "Arizona Diamondbacks",
+        "teamCode": "ari",
+        "fileCode": "ari",
+        "teamName": "D-backs",
+        "locationName": "Phoenix",
+        "shortName": "Arizona"
+    },
+    "110": {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "teamCode": "bal",
+        "fileCode": "bal",
+        "teamName": "Orioles",
+        "locationName": "Baltimore",
+        "shortName": "Baltimore"
+    },
+    "112": {
+        "id": 112,
+        "name": "Chicago Cubs",
+        "teamCode": "chn",
+        "fileCode": "chc",
+        "teamName": "Cubs",
+        "locationName": "Chicago",
+        "shortName": "Chi Cubs"
+    },
+    "113": {
+        "id": 113,
+        "name": "Cincinnati Reds",
+        "teamCode": "cin",
+        "fileCode": "cin",
+        "teamName": "Reds",
+        "locationName": "Cincinnati",
+        "shortName": "Cincinnati"
+    },
+    "114": {
+        "id": 114,
+        "name": "Cleveland Guardians",
+        "teamCode": "cle",
+        "fileCode": "cle",
+        "teamName": "Guardians",
+        "locationName": "Cleveland",
+        "shortName": "Cleveland"
+    },
+    "115": {
+        "id": 115,
+        "name": "Colorado Rockies",
+        "teamCode": "col",
+        "fileCode": "col",
+        "teamName": "Rockies",
+        "locationName": "Denver",
+        "shortName": "Colorado"
+    },
+    "117": {
+        "id": 117,
+        "name": "Houston Astros",
+        "teamCode": "hou",
+        "fileCode": "hou",
+        "teamName": "Astros",
+        "locationName": "Houston",
+        "shortName": "Houston"
+    },
+    "118": {
+        "id": 118,
+        "name": "Kansas City Royals",
+        "teamCode": "kca",
+        "fileCode": "kc",
+        "teamName": "Royals",
+        "locationName": "Kansas City",
+        "shortName": "Kansas City"
+    },
+    "119": {
+        "id": 119,
+        "name": "Los Angeles Dodgers",
+        "teamCode": "lan",
+        "fileCode": "la",
+        "teamName": "Dodgers",
+        "locationName": "Los Angeles",
+        "shortName": "LA Dodgers"
+    },
+    "120": {
+        "id": 120,
+        "name": "Washington Nationals",
+        "teamCode": "was",
+        "fileCode": "was",
+        "teamName": "Nationals",
+        "locationName": "Washington",
+        "shortName": "Washington"
+    },
+    "111": {
+        "id": 111,
+        "name": "Boston Red Sox",
+        "teamCode": "bos",
+        "fileCode": "bos",
+        "teamName": "Red Sox",
+        "locationName": "Boston",
+        "shortName": "Boston"
+    },
+    "116": {
+        "id": 116,
+        "name": "Detroit Tigers",
+        "teamCode": "det",
+        "fileCode": "det",
+        "teamName": "Tigers",
+        "locationName": "Detroit",
+        "shortName": "Detroit"
+    },
+    "121": {
+        "id": 121,
+        "name": "New York Mets",
+        "teamCode": "nyn",
+        "fileCode": "nym",
+        "teamName": "Mets",
+        "locationName": "Flushing",
+        "shortName": "NY Mets"
+    }
+}
