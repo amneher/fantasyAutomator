@@ -6,7 +6,9 @@
         "fileCode": "oak",
         "teamName": "Athletics",
         "locationName": "Oakland",
-        "shortName": "Oakland"
+        "shortName": "Oakland",
+        "league": "",
+        "division": ""
     },
     "134": {
         "id": 134,

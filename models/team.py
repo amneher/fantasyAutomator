@@ -1,28 +1,48 @@
-from typing import List
-from typing import Optional
-from sqlalchemy import ForeignKey
-from sqlalchemy import String
-from sqlalchemy.orm import DeclarativeBase
-from sqlalchemy.orm import Mapped
-from sqlalchemy.orm import mapped_column
-from sqlalchemy.orm import relationship
+from abc import ABC, abstractmethod
 
 from .game import Game
+from .player import Player
+from .season import Season
+from .exceptions import StringValidatorError
+from .base import validate_string
 
-class Base(DeclarativeBase):
-    pass
 
-class MLBTeam(Base):
-    __tablename__ = "mlb_team"
+class Team(ABC):
+    @abstractmethod
+    @property
+    def name(self):
+        return self._name
+    
+    @abstractmethod
+    def set_name(self, name: str):
+        if validate_string(name):
+            self._name = name
+        else:
+            raise StringValidatorError("Invalid value for 'name' provided.")
 
-    mlb_id: Mapped[int] = mapped_column(primary_key=True)
-    name: Mapped[str] = mapped_column(String(50))
-    teamCode: Mapped[str] = mapped_column(String(5))
-    fileCode: Mapped[str] = mapped_column(String(5))
-    teamName: Mapped[str] = mapped_column(String(20))
-    locationName: Mapped[str] = mapped_column(String(30))
-    shortName: Mapped[str] = mapped_column(String(30))
-    activePlayers: Mapped[List["Player"]] = relationship()
-    seasonGames: Mapped[List["Game"]] = relationship()
+    @abstractmethod
+    @property
+    def team_code(self):
+        return self._team_code
+    
+    @abstractmethod
+    def set_team_code(self, code: str):
+        if validate_string(code):
+            self._team_code = code
+        else:
+            raise StringValidatorError("Invalid value for 'team_code' provided.")
+
+
+class MLBTeam(Team):
+
+    _name: str
+    _team_code: str
+    mlb_id: int
+    file_code: str
+    team_name: str
+    location_name: str
+    short_name: str
+    active_players: list[Player]
+    current_season: Season
 
     def add_game(self, game: Game):
