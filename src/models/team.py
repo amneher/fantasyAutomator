@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
 
+from .base import validate_string
+from .exceptions import StringValidatorError
 from .game import Game
 from .player import Player
 from .season import Season
-from .exceptions import StringValidatorError
-from .base import validate_string
 
 
 class Team(ABC):
@@ -12,7 +12,7 @@ class Team(ABC):
     @property
     def name(self):
         return self._name
-    
+
     @abstractmethod
     def set_name(self, name: str):
         if validate_string(name):
@@ -24,7 +24,7 @@ class Team(ABC):
     @property
     def team_code(self):
         return self._team_code
-    
+
     @abstractmethod
     def set_team_code(self, code: str):
         if validate_string(code):
@@ -34,7 +34,6 @@ class Team(ABC):
 
 
 class MLBTeam(Team):
-
     _name: str
     _team_code: str
     mlb_id: int
@@ -46,3 +45,4 @@ class MLBTeam(Team):
     current_season: Season
 
     def add_game(self, game: Game):
+        pass

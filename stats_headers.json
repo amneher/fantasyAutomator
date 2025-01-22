@@ -11,7 +11,7 @@
             "last_played",
             "mlb_debut",
             "bat_side",
-            "pitch_hand",
+            "pitch_hand"
         ],
         "season_stat_headers": ["type", "group", "season"],
         "fielding_stat_headers": [
@@ -29,7 +29,7 @@
             "games",
             "doublePlays",
             "triplePlays",
-            "throwingErrors",
+            "throwingErrors"
         ],
         "batting_stat_headers": [
             "gamesPlayed",
@@ -63,7 +63,7 @@
             "babip",
             "groundOutsToAirouts",
             "catchersInterference",
-            "atBatsPerHomeRun",
+            "atBatsPerHomeRun"
         ],
         "pitching_stat_headers": [
             "gamesPlayed",
@@ -125,8 +125,8 @@
             "inheritedRunnersScored",
             "catchersInterference",
             "sacBunts",
-            "sacFlies",
-        ],
+            "sacFlies"
+        ]
     },
     "team_stat_headers": {},
     "game_stat_headers": {
@@ -134,7 +134,7 @@
             "gameId": "",
             "teamInfo": {
                 "away": ["id", "abbreviation", "teamName", "shortName"],
-                "home": ["id", "abbreviation", "teamName", "shortName"],
+                "home": ["id", "abbreviation", "teamName", "shortName"]
             },
             "playerInfo": {"ID<playerId>": ["id", "fullName", "boxscoreName"]},
             "away": {
@@ -155,7 +155,7 @@
                         "ops",
                         "stolenBases",
                         "rbi",
-                        "leftOnBase",
+                        "leftOnBase"
                     ],
                     "pitching": [
                         "runs",
@@ -174,8 +174,8 @@
                         "earnedRuns",
                         "pitchesThrown",
                         "strikes",
-                        "rbi",
-                    ],
+                        "rbi"
+                    ]
                 },
                 "players": {
                     "ID<playerId>": {
@@ -197,7 +197,7 @@
                                 "atBats",
                                 "stolenBases",
                                 "rbi",
-                                "leftOnBase",
+                                "leftOnBase"
                             ],
                             "pitching": [
                                 "runs",
@@ -218,8 +218,8 @@
                                 "earnedRuns",
                                 "pitchesThrown",
                                 "strikes",
-                                "rbi",
-                            ],
+                                "rbi"
+                            ]
                         },
                         "seasonStats": {
                             "batting": [
@@ -233,7 +233,7 @@
                                 "atBats",
                                 "stolenBases",
                                 "rbi",
-                                "leftOnBase",
+                                "leftOnBase"
                             ],
                             "pitching": [
                                 "runs",
@@ -254,11 +254,11 @@
                                 "earnedRuns",
                                 "pitchesThrown",
                                 "strikes",
-                                "rbi",
-                            ],
+                                "rbi"
+                            ]
                         },
                         "gameStatus": {},
-                        "allPositions": [{"abbreviation": "str"}],
+                        "allPositions": [{"abbreviation": "str"}]
                     }
                 },
                 "batters": ["int<playerId>"],
@@ -269,10 +269,10 @@
                 "info": [
                     {
                         "title": "str",
-                        "fieldList": [{"label": "str", "value": "str"}],
+                        "fieldList": [{"label": "str", "value": "str"}]
                     }
                 ],
-                "note": [{"label": "str", "value": "str"}],
+                "note": [{"label": "str", "value": "str"}]
             },
             "home": {
                 "team": {"id": "<teamId>"},
@@ -292,7 +292,7 @@
                         "ops",
                         "stolenBases",
                         "rbi",
-                        "leftOnBase",
+                        "leftOnBase"
                     ],
                     "pitching": [
                         "runs",
@@ -311,8 +311,8 @@
                         "earnedRuns",
                         "pitchesThrown",
                         "strikes",
-                        "rbi",
-                    ],
+                        "rbi"
+                    ]
                 },
                 "players": {
                     "ID<playerId>": {
@@ -334,7 +334,7 @@
                                 "atBats",
                                 "stolenBases",
                                 "rbi",
-                                "leftOnBase",
+                                "leftOnBase"
                             ],
                             "pitching": [
                                 "runs",
@@ -355,8 +355,8 @@
                                 "earnedRuns",
                                 "pitchesThrown",
                                 "strikes",
-                                "rbi",
-                            ],
+                                "rbi"
+                            ]
                         },
                         "seasonStats": {
                             "batting": [
@@ -370,7 +370,7 @@
                                 "atBats",
                                 "stolenBases",
                                 "rbi",
-                                "leftOnBase",
+                                "leftOnBase"
                             ],
                             "pitching": [
                                 "runs",
@@ -391,11 +391,11 @@
                                 "earnedRuns",
                                 "pitchesThrown",
                                 "strikes",
-                                "rbi",
-                            ],
+                                "rbi"
+                            ]
                         },
                         "gameStatus": {},
-                        "allPositions": [{"abbreviation": "str"}],
+                        "allPositions": [{"abbreviation": "str"}]
                     }
                 },
                 "batters": ["int<playerId>"],
@@ -406,10 +406,10 @@
                 "info": [
                     {
                         "title": "str",
-                        "fieldList": [{"label": "str", "value": "str"}],
+                        "fieldList": [{"label": "str", "value": "str"}]
                     }
                 ],
-                "note": [{"label": "str", "value": "str"}],
+                "note": [{"label": "str", "value": "str"}]
             },
             "awayBatters": [
                 [
@@ -434,7 +434,7 @@
                     "position",
                     "obp",
                     "slg",
-                    "battingOrder",
+                    "battingOrder"
                 ]
             ],
             "homeBatters": [
@@ -460,7 +460,7 @@
                     "position",
                     "obp",
                     "slg",
-                    "battingOrder",
+                    "battingOrder"
                 ]
             ],
             "awayBattingTotals": [
@@ -482,7 +482,7 @@
                 "note",
                 "substitution",
                 "battingOrder",
-                "personId",
+                "personId"
             ],
             "homeBattingTotals": [
                 "namefield",
@@ -503,10 +503,10 @@
                 "note",
                 "substitution",
                 "battingOrder",
-                "personId",
+                "personId"
             ],
-            "awayBattingNotes": {0: "str"},
-            "homeBattingNotes": {0: "str"},
+            "awayBattingNotes": "str",
+            "homeBattingNotes": "str",
             "awayPitchers": [
                 [
                     "namefield",
@@ -522,7 +522,7 @@
                     "s",
                     "name",
                     "personId",
-                    "note",
+                    "note"
                 ]
             ],
             "homePitchers": [
@@ -540,7 +540,7 @@
                     "s",
                     "name",
                     "personId",
-                    "note",
+                    "note"
                 ]
             ],
             "awayPitchingTotals": [
@@ -557,7 +557,7 @@
                 "era",
                 "name",
                 "personId",
-                "note",
+                "note"
             ],
             "homePitchingTotals": [
                 "namefield",
@@ -573,9 +573,9 @@
                 "era",
                 "name",
                 "personId",
-                "note",
+                "note"
             ],
-            "gameBoxInfo": [{"label", "value"}],
-        },
-    },
+            "gameBoxInfo": [{"label": "value"}]
+        }
+    }
 }

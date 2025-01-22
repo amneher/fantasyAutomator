@@ -1,0 +1,22 @@
+[project]
+name = "fantasyautomator"
+version = "0.1.0"
+description = "A service that uses mlb data to improve fantasy baseball performance."
+authors = [{name= "Andrew Neher",  email="andrew.neher1@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.1.0",
+    "flask-alembic>=3.1.1",
+    "flask-caching>=2.3.0",
+    "flask-sqlalchemy>=3.1.1",
+    "flask-wtf>=1.2.2",
+    "jinja2>=3.1.5",
+    "mlb-statsapi>=1.8",
+    "pandas>=2.2.3",
+    "pydantic[email,timezone]>=2.10.5",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+]
